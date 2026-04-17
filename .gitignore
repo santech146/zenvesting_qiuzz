@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Local Data (exclude if you want a clean start, include if needed)
+data/state.json
+data/scores.json
+# data/quiz.json  <-- Keep this if you want the quiz to be there by default
+
+# OS
+.DS_Store
+Thumbs.db
